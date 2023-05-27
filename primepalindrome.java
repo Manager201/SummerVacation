@@ -1,5 +1,5 @@
 import java.util.*;
-class primepalindrone
+class primepalindrome
 {
     void main()
     {
@@ -20,8 +20,8 @@ class primepalindrone
             n=n/10;
         }
         if(m==r&&a==m+1)
-        System.out.println("Prime-Palindrone");
+        System.out.println("Prime-Palindrome");
         else
-        System.out.println("It is not prime-palindrone");
+        System.out.println("It is not prime-palindrome");
     }
 }
