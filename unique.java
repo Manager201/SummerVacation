@@ -1,7 +1,7 @@
 import java.util.*;
 
 class unique {
-    public static void main(String[] args) {
+    void main() {
         int n, c = 0, d;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
