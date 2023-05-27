@@ -7,7 +7,7 @@ class cyclo
         int n;  
         System.out.println("Enter a number");
         n=sc.nextInt();
-        int m=n, s=m%10,d,r=1;
+        int m=n, s=m%10,d,r=0;
         while(n!=0)
         {
             d=n%10;
