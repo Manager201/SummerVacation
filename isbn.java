@@ -2,7 +2,7 @@ class isbn
 {
     void main(int n)
     {
-        int r,d,s=0,i,c=0,m=n;
+        int r,d,x,s=0,i,c=0,m=n;
         while(n!=0)
         {
             d=n%10;
@@ -19,10 +19,10 @@ class isbn
                 s=s+r*i;
                 m=m/10;
             }
+            if(s%11==0)
+                System.out.println("Legal ISBN");
+            else 
+                System.out.println("Illegal ISBN");
         }
-        if(s%11==0)
-            System.out.println("Legal ISBN");
-        else 
-            System.out.println("Illegal ISBN");
     }
 }
