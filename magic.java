@@ -1,7 +1,7 @@
 import java.util.*;
 class magic
 {
-    public static void main(String[] args)
+    void main()
     {
         Scanner sc=new Scanner (System.in);
         int n,s=0,d;
