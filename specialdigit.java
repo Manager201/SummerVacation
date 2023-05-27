@@ -1,7 +1,7 @@
 import java.util.*;
 
 class specialdigit {
-    public static void main(String[] args) {
+    void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = sc.nextInt();
