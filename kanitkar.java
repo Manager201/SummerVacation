@@ -1,7 +1,7 @@
 import java.util.*;
 class kanitkar
 {
-    public static void main(String[] args)
+    void main()
     {
         int n,s=0,d,j,x,r=0;
         Scanner sc=new Scanner(System.in); 
