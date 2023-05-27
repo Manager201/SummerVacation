@@ -1,7 +1,7 @@
 import java.util.*;
 class amicable
 {
-    public static void main(String[] args)
+    void main()
     {
      Scanner sc=new Scanner(System.in);
      int a,b,y=0,i,j,z=0;
