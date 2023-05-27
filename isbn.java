@@ -2,21 +2,23 @@ class isbn
 {
     void main(int n)
     {
-        int r=1,d,x,s=0,i,c=0;
+        int r,d,s=0,i,c=0,m=n;
         while(n!=0)
         {
             d=n%10;
-            r=r*10+d;
             c++;
             n=n/10;
         }
         if(c!=10)
             System.out.println("Illegal ISBN");
-        for(i=1;i<=10;i++)
+        else
         {
-            x=r%10;
-            s=s+i*x;
-            x=x/10;
+            for(i=1;i<=10;i++)
+            {
+                r=m%10;
+                s=s+r*i;
+                m=m/10;
+            }
         }
         if(s%11==0)
             System.out.println("Legal ISBN");
